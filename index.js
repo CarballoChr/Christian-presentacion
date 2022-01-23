@@ -69,12 +69,12 @@ function renderTexto() { //apertura funcion
         almacenNumeros.splice(num, 1);
 
     
-
+/*
     let verificacion = JSON.stringify(almacenNumeros)
 
     document.getElementById("verificar").innerHTML = `
       
-             <p>${verificacion}</p>`  //para verificar
+             <p>${verificacion}</p>`  //para verificar */
 
             }
 
@@ -112,8 +112,9 @@ let pagFinal = document.getElementById("cuerpo").innerHTML = `
     </div>      
      
         <img class="imgFinal" src="https://c.tenor.com/U2JqGqBXqZgAAAAM/cat-sad.gif" />
-<button  id="random-btn">Dato Random</button>
-        <button id="reinicio">Reiniciar</button>
+        
+       
+        
        `
 
 

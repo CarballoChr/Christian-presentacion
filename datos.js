@@ -36,7 +36,7 @@ let datos = [
     },
     {
         texto: 'Mi película favorita es "El Padrino"',
-        imagen: new Image().src = "https://static.wikia.nocookie.net/doblaje/images/9/9a/Elpadrino.jpg/revision/latest?cb=20170311061852&path-prefix=es",
+        imagen: new Image().src = "https://es.web.img3.acsta.net/pictures/18/06/12/12/12/0117051.jpg?coixp=49&coiyp=27",
         tipoImagen: "vertical"
     },
     {
