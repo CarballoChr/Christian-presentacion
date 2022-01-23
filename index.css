@@ -1,17 +1,48 @@
 
+.display{
 
-/*comentario de prueba*/
-/*comentario de prueba 2*/
-/*comentario de prueba 3*/
-/*comentario de prueba espero que la ultima*/
-
-
-.texto_principal{
-
-    font-size: 40px;
     width: 600px;
     text-align: center;
     padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+}
+
+
+
+button{
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-weight: bold;
+width: 200px;
+margin-bottom: 5px;
+border-radius: 5px;
+background: darkred;
+margin-left: auto;
+margin-right: auto;
+display:flex;
+padding-left: 50px;
+padding-right: 50px;
+justify-content: center;
+    
+}
+
+img{
+    width: 200px; height: 40%;
+    margin-top: 10px;
+
+}
+
+
+.texto{
+
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,18 +52,25 @@ body{
     background-color: black;
     color: white;
 }
-.imagen{
+.horizontal{
 
     width: 300px; height: 200px;
     margin-top: 20px;
 }
 
 
-.imgLarga{
+.vertical{
 
     width: 200px; height: 300px;
-    justify-content: center;
+    
     margin-top: 20px;
+}
+
+.imgFinal{
+
+    display:block;
+    margin:auto;
+    padding: 40px;
 }
 
 .cuadrada{
@@ -43,59 +81,13 @@ body{
 
 }
 
-.columna{
 
-    display:flex;
-    flex-wrap: wrap;
+.textoPrincipal{
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
 }
 
-.colums_element{
-
-    padding: 50px;
-    width: 300px;
-    
-    
-}
-
-
-.favoritos{
-
-    padding: 50px;
-   width: 300px;
-   
-  
-}
-.especial{
-
-    width: 300px;
-    display: flex;
-    padding-right: 50px;
-    justify-content: center;
-    
-    
-}
-
-.imagen_especial{
-
-    width: 100px;
-    text-align: center;
-    padding: 10px;
-}
-
-
-.final{
-    
-    margin-top: 100px;
-    border: solid;
-    border-radius: 10px;
-    margin-left: 600px;
-    margin-right: 600px;
-    text-align: center;
-    
-    
-}
